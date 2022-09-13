@@ -31,9 +31,9 @@ AND yr >= 1980
 AND yr <= 1989
 
 -- #6. Show all details of the presidential winners:
-# Theodore Roosevelt
-# Jimmy Carter
-# Barack Obama
+-- # Theodore Roosevelt
+-- # Jimmy Carter
+-- # Barack Obama
 
 SELECT * FROM nobel
 WHERE winner IN ('TheodoreRoosevelt','Jimmy Carter','Barack Obama')
@@ -69,7 +69,7 @@ SELECT * FROM nobel
 WHERE winner = 'Peter Grünberg'
 
 -- #12. Find all details of the prize won by EUGENE O'NEILL
-# Escaping single quotes
+-- # Escaping single quotes
 
 SELECT * FROM nobel
 WHERE winner = 'Eugene O''Neill'
@@ -81,7 +81,7 @@ WHERE winner LIKE 'Sir%'
 ORDER BY yr DESC, winner
 
 -- #14. The expression subject IN ('chemistry','physics') can be used as a value - it will be 0 or 1.
-# Show the 1984 winners and subject ordered by subject and winner name; but list chemistry and physics last.
+-- # Show the 1984 winners and subject ordered by subject and winner name; but list chemistry and physics last.
 
 SELECT winner, subject
 FROM nobel
