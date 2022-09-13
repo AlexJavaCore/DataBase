@@ -41,7 +41,7 @@ WHERE winner IN ('TheodoreRoosevelt','Jimmy Carter','Barack Obama')
 -- #7. Show the winners with first name John
 
 SELECT winner FROM nobel
-WHERE winner LIKE'John%'
+WHERE winner LIKE 'John%'
 
 -- #8. Show the year, subject, and name of physics winners for 1980 together with the chemistry winners for 1984.
 
