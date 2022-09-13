@@ -87,8 +87,8 @@ AND name <> capital
 SELECT name
 FROM world
 WHERE name LIKE '%a%'
-And name like '%e%'
-And name like '%i%'
-And name like '%o%'
-And name like '%u%'
-And name not like '% %'
+And name LIKE '%e%'
+And name LIKE '%i%'
+And name LIKE '%o%'
+And name LIKE '%u%'
+And name NOT LIKE '% %'
